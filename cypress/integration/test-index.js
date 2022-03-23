@@ -3,6 +3,5 @@ describe('My First Test', () => {
         cy
             .visit("https://amazon.com")
             .get("#twotabsearchtextbox").type("kindle").type("{enter}")
-            .click()
     })
 })
