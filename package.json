@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lsoares/cypress-demo#readme",
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
     "cypress": "^9.5.2"
   }
 }
