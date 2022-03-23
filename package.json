@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --browser chrome --headed"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "url": "https://github.com/lsoares/cypress-demo/issues"
   },
   "homepage": "https://github.com/lsoares/cypress-demo#readme",
-  "dependencies": {
+  "devDependencies": {
     "cypress": "^9.5.2"
   }
 }
